@@ -1,0 +1,21 @@
+{
+    "name": "teodor/forge",
+    "description": "Auto-generate REST APIs from PostgreSQL schema at runtime",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Teodor\\Forge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Teodor Todorov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+          "illuminate/support": "^10.0|^11.0|^12.0",
+          "illuminate/database": "^10.0|^11.0|^12.0"
+      }
+}
