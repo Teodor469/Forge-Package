@@ -15,7 +15,24 @@
     ],
     "minimum-stability": "dev",
     "require": {
-          "illuminate/support": "^10.0|^11.0|^12.0",
-          "illuminate/database": "^10.0|^11.0|^12.0"
-      }
+          "illuminate/support": "12.x-dev",
+          "illuminate/database": "^10.0|^11.0|^12.0",
+        "eventsauce/object-hydrator": "dev-main"
+      },
+    "require-dev": {
+        "pestphp/pest": "3.x-dev",
+        "orchestra/testbench": "10.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Teodor\\Forge\\Providers\\ForgeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
