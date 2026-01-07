@@ -12,9 +12,6 @@
 */
 
 use Pest\Plugin;
-use Teodor\Forge\tests\PackageTestCase;
-
-uses(PackageTestCase::class)->in(__DIR__);
 
 pest()->extend(Tests\TestCase::class)
  // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)

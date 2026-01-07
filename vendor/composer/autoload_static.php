@@ -63,6 +63,9 @@ class ComposerStaticInit3664221b51351ae5b6766d460d5a49c3
         ),
         'W' => 
         array (
+            'Workbench\\Database\\Seeders\\' => 27,
+            'Workbench\\Database\\Factories\\' => 29,
+            'Workbench\\App\\' => 14,
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
         ),
@@ -70,6 +73,7 @@ class ComposerStaticInit3664221b51351ae5b6766d460d5a49c3
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
             'Termwind\\' => 9,
+            'Teodor\\Forge\\Tests\\' => 19,
             'Teodor\\Forge\\' => 13,
         ),
         'S' => 
@@ -222,6 +226,18 @@ class ComposerStaticInit3664221b51351ae5b6766d460d5a49c3
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
+        'Workbench\\Database\\Seeders\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/workbench/database/seeders',
+        ),
+        'Workbench\\Database\\Factories\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/workbench/database/factories',
+        ),
+        'Workbench\\App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/workbench/app',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
@@ -237,6 +253,10 @@ class ComposerStaticInit3664221b51351ae5b6766d460d5a49c3
         'Termwind\\' => 
         array (
             0 => __DIR__ . '/..' . '/nunomaduro/termwind/src',
+        ),
+        'Teodor\\Forge\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Teodor\\Forge\\' => 
         array (
