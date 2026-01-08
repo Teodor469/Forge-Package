@@ -3,7 +3,7 @@
         'name' => 'teodor/forge',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '2214321208aeb7e02d3ac1fffa06b175c2ea05bf',
+        'reference' => '5bc9d91d623dfa585a298341755814220e0e6c65',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -453,7 +453,7 @@
         'laravel/framework' => array(
             'pretty_version' => '12.x-dev',
             'version' => '12.9999999.9999999.9999999-dev',
-            'reference' => '379bf4247ddb2f5c6144475c3d07e2678d8b048f',
+            'reference' => '90a84ca8d044480096ab9ee38af77285a12d0a9d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/framework',
             'aliases' => array(),
@@ -990,8 +990,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -1520,7 +1520,7 @@
         'teodor/forge' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '2214321208aeb7e02d3ac1fffa06b175c2ea05bf',
+            'reference' => '5bc9d91d623dfa585a298341755814220e0e6c65',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1567,9 +1567,9 @@
             'dev_requirement' => false,
         ),
         'webmozart/assert' => array(
-            'pretty_version' => '2.0.0',
-            'version' => '2.0.0.0',
-            'reference' => '1b34b004e35a164bc5bb6ebd33c844b2d8069a54',
+            'pretty_version' => '2.1.1',
+            'version' => '2.1.1.0',
+            'reference' => 'b01be90dceff69c88c7b36c30ee45c9fd9107f7f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../webmozart/assert',
             'aliases' => array(),

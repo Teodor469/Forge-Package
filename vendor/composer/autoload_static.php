@@ -72,6 +72,7 @@ class ComposerStaticInit3664221b51351ae5b6766d460d5a49c3
         'T' => 
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
+            'Tests\\' => 6,
             'Termwind\\' => 9,
             'Teodor\\Forge\\Tests\\' => 19,
             'Teodor\\Forge\\' => 13,
@@ -249,6 +250,10 @@ class ComposerStaticInit3664221b51351ae5b6766d460d5a49c3
         'TijsVerkoyen\\CssToInlineStyles\\' => 
         array (
             0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
+        ),
+        'Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Termwind\\' => 
         array (

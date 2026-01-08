@@ -1717,12 +1717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "379bf4247ddb2f5c6144475c3d07e2678d8b048f"
+                "reference": "90a84ca8d044480096ab9ee38af77285a12d0a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/379bf4247ddb2f5c6144475c3d07e2678d8b048f",
-                "reference": "379bf4247ddb2f5c6144475c3d07e2678d8b048f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/90a84ca8d044480096ab9ee38af77285a12d0a9d",
+                "reference": "90a84ca8d044480096ab9ee38af77285a12d0a9d",
                 "shasum": ""
             },
             "require": {
@@ -1883,7 +1883,7 @@
                 "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^7.2).",
                 "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^7.2)."
             },
-            "time": "2026-01-07T00:51:46+00:00",
+            "time": "2026-01-07T15:04:26+00:00",
             "default-branch": true,
             "type": "library",
             "extra": {
@@ -10286,17 +10286,17 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "2.0.0",
-            "version_normalized": "2.0.0.0",
+            "version": "2.1.1",
+            "version_normalized": "2.1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "1b34b004e35a164bc5bb6ebd33c844b2d8069a54"
+                "reference": "b01be90dceff69c88c7b36c30ee45c9fd9107f7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/1b34b004e35a164bc5bb6ebd33c844b2d8069a54",
-                "reference": "1b34b004e35a164bc5bb6ebd33c844b2d8069a54",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/b01be90dceff69c88c7b36c30ee45c9fd9107f7f",
+                "reference": "b01be90dceff69c88c7b36c30ee45c9fd9107f7f",
                 "shasum": ""
             },
             "require": {
@@ -10310,7 +10310,7 @@
                 "ext-simplexml": "",
                 "ext-spl": ""
             },
-            "time": "2025-12-16T21:36:00+00:00",
+            "time": "2026-01-07T17:26:38+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -10345,7 +10345,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.0.0"
+                "source": "https://github.com/webmozarts/assert/tree/2.1.1"
             },
             "install-path": "../webmozart/assert"
         }

@@ -12,7 +12,7 @@ class ForgeServiceProvider extends ServiceProvider
     public function register() 
     {
         $this->app->singleton(SchemaIntrospectionService::class, function(Application $app) {
-            return new SchemaIntrospectionService;
+            return new SchemaIntrospectionService($app['db']->connection());
         });
     }
 
